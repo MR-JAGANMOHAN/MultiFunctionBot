@@ -1,6 +1,6 @@
 from bot.version import (
     __bot_version__,
-    __gitrepo__,
+    __jagan__,
     __license__,
     __pyro_layer__,
     __pyro_version__,
@@ -17,7 +17,7 @@ ABOUT_TEXT = f"""• **Python Version** : {__python_version__}
 • **Pyrogram Layer** : {__pyro_layer__}
 • **License** : {__license__}
 
-**Github Repo**: {__gitrepo__}"""
+**Owner**: {__jagan__}"""
 
 USER_TEXT = """🗒️ Documentation for commands available to user's
 
