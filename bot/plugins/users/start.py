@@ -17,7 +17,7 @@ from bot.helpers.constants import (
 from bot.helpers.database import DatabaseHelper
 from bot.helpers.decorators import user_commands
 from bot.helpers.functions import forcesub, get_readable_time
-from bot.version import __gitrepo__
+from bot.version import __jagan__
 
 START_BUTTON = [
     [
@@ -26,8 +26,8 @@ START_BUTTON = [
     ],
     [
         InlineKeyboardButton(
-            "🔭 Original Repo",
-            url=f"{__gitrepo__}",
+            ",👨‍💻 Developer 👨‍💻",
+            url=f"{__jagan__}",
         )
     ],
 ]
